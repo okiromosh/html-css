@@ -1,0 +1,31 @@
+body{
+    background-color: rgb(83, 78, 78);
+}
+h1{
+    color: blanchedalmond;
+}
+
+/* set style for all <p> tag elements */
+p{
+    color: cornsilk;
+}
+
+/*
+When using id="" as identifer, we call it using the # symbol.
+#p1{
+    color: rgb(141, 2, 2);
+}
+#p2{
+    color: orange;
+}
+*/
+
+/* 
+When using class="" as indentifer, we call it using the . symbol.
+.odd{
+    color: blue;
+}
+.even{
+    color: yellow;
+}
+*/
