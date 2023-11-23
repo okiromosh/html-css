@@ -1,0 +1,22 @@
+/* 
+To link font from local font folder.
+Use the .ttf file format 
+
+@font-face{
+    src: url(folder/filename.ttf);
+    font-family: Font-Name      #You can use default.
+}
+@font-face{
+    src: url(folder/filename.ttf);
+    font-family: Font-Name      #You can use default.
+}
+*/
+h1{
+    font-family: Roboto, Verdana, Geneva, Tahoma, sans-serif;
+}
+p{
+    font-family: 'Playfair Display','Lucida console', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1em;
+    font-weight: normal;
+    font-style: normal;
+}
