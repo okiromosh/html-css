@@ -1,6 +1,6 @@
 /* 
-To link font from local font folder.
-Use the .ttf file format 
+    To link font from local font folder.
+    Use the .ttf file format 
 
 @font-face{
     src: url(folder/filename.ttf);
@@ -11,6 +11,7 @@ Use the .ttf file format
     font-family: Font-Name      #You can use default.
 }
 */
+
 h1{
     font-family: Roboto, Verdana, Geneva, Tahoma, sans-serif;
 }
