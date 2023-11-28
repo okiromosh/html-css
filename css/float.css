@@ -1,0 +1,18 @@
+/* 
+Float: allows other elements to flow around it
+*/
+body{
+    border: 3px solid;
+    display: flow-root; /* stops elements from overflow outside border */
+}
+#img{
+    width: 150px;
+    font-size: 2em;
+    float: left;
+    margin: 10px;
+}
+
+#img2{
+    width: 150px;
+    float: right;
+}

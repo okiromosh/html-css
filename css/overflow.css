@@ -1,0 +1,15 @@
+/*
+overflow: property that sets desired behaviour when content does not fit in parent element box(overflows). There are five states.
+
+overflow: visible;
+overflow: hidden;
+overflow: clip;
+overflow: scroll;
+overflow: auto;
+
+*/
+
+div{
+    border: 2px solid;
+    height: 75px;
+}
