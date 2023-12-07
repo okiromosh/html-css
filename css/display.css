@@ -1,0 +1,21 @@
+/*
+display: specifies how/if an element is displayed
+    block-level: start at new line, take up full width avaliable.
+    (h1, div, p, form, header, footer)
+
+    inline: doesnt start at new line, width is limited to what is needed.
+    (span, a, img)
+*/ 
+
+div{
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    display: block; 
+}
+span{
+    background-color: lightblue;
+    width: 100px;
+    height: 100px;
+    display: inline;
+}
