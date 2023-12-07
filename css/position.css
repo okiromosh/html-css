@@ -1,0 +1,45 @@
+/*
+position: 
+    relative: postions element to relative where it normally is.(#box1)
+
+    fixed: positioned relative to viewport(#box2)
+
+    absolute: positioned ralative to ancestor (#box3)
+
+    sticky: positioned based on scroll position
+
+    static: default position of an element
+
+
+*/
+
+#box1{
+    width: 200px;
+    height: 200px;
+    background-color: lightskyblue;
+    position: relative;
+    top: none;  /* moved 100px from where it normaly/relatively is */
+    left: none;
+}
+#box2{
+    width: 250px;
+    height: 50px;
+    background-color: yellowgreen;
+    position: fixed;
+}
+
+#box3{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}
+#box4{
+    width: 250px;
+    height: 50px;
+    background-color: yellow;
+    position: sticky;
+    top: 0px;
+}
