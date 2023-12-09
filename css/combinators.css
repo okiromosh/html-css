@@ -1,0 +1,23 @@
+/*
+combinators: explains the relationship between different listed selectors
+
+     (empty space) = descendant
+    > = child
+    ~ = general sibling
+    + = adjacent sibling
+*/
+#container{
+    border: 2px solid;
+}
+#container p{   /* descendant*/
+    background-color: rgb(245, 245, 94);
+}
+#container > p{ /* children*/
+    background-color: rgb(250, 95, 95);
+}
+#container ~ p{ /*general sibling*/
+    background-color: rgb(72, 235, 72);
+}
+#container + p{ /* adjacent sibling*/
+    background-color: rgb(81, 81, 243);
+}
