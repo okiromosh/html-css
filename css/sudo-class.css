@@ -16,3 +16,25 @@ a:visited{
     color: yellow;
 }
 
+li:hover{
+    background-color: hsl(60, 100%, 62%);
+}
+/*
+li:not(:hover){
+    background-color: rgb(245, 245, 245);
+}
+*/
+li:nth-child(odd){
+    background-color: hsl(60, 100%, 62%);
+}
+li:nth-child(even){
+    background-color: rgb(98, 155, 230);
+}
+#greeting p{
+    background-color: rgb(107, 164, 240);
+    padding: 10px;
+    display: none;
+}
+#greeting:hover p{
+    display: block;
+}
