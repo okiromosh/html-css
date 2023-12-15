@@ -1,0 +1,62 @@
+/*
+Semantic Tags: keeps your content orgainized.
+                Better for SEO
+                Assists Screen readers and accessability
+
+    <header> : introductory content
+    <nav> : naviagation links
+    <main>: main content
+    <section>: dependent content
+    <aside>: side content
+    <article>: independent content
+    <footer>: closing content
+*/
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+}
+header{
+    text-align: center;
+    padding: 10px;
+    background-color: burlywood;
+}
+.navbar{
+    background-color: rgb(175, 175, 175);
+    height: 50px;    
+}
+.navbar p{
+    margin: 0;
+    text-align: center;
+}
+
+aside{
+    width: 20%;
+    float: left;
+    padding: 10px;
+}
+section{
+    width: 40%;
+    float: left;
+    padding: 10px;
+}
+article{
+    width: 40%;
+    float: left;
+    padding: 10px;
+}
+footer{
+    text-align: center;
+    padding: 10px;
+    background-color: burlywood;
+    clear: both;
+}
+/*
+for mobile view
+*/
+@media screen and (max-width:600px){
+    aside,section,article{
+        width: 100%;
+    }
+}
