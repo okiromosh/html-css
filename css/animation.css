@@ -1,0 +1,21 @@
+#box{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(247, 101, 101);
+    font-size: 10em;
+    text-align: center;
+    animation-name: grow;
+    animation-duration: 2s;
+}
+@keyframes slideDown {
+    to{transform: translateY(300%);}
+}
+@keyframes slideRight {
+    to{transform: translateX(200%);}
+}
+@keyframes rotate {
+    100%{transform: rotateZ(360deg);}
+}
+@keyframes grow {
+    50%{transform: scale(2, 2);}
+}
