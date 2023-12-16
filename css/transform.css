@@ -1,0 +1,35 @@
+/*
+Transform: lets you rotate, skew, or translate an element
+    /*
+    transform: translate(50px, 50px); 
+    transform: rotateZ(45deg); 
+    transform: scale(0.5, 0.5); 
+    transform: skewX(45deg); 
+    transform: translate(100px, 100px) rotateZ(45deg); 
+    */
+
+*/
+body{
+    margin: 0px;
+}
+.box{
+    width: 200px;
+    height: 200px;
+    border: 3px solid black;
+    font-size: 10em;
+    text-align: center;
+
+    transform: translateX(100px) rotateZ(45deg) scale(0.7);
+}
+#box1{
+    
+    background-color: rgb(85, 255, 85);  
+}
+#box2{
+    
+    background-color: rgb(218, 255, 85);  
+}
+#box3{
+    
+    background-color: rgb(85, 153, 255);  
+}
